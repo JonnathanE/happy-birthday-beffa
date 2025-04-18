@@ -4,7 +4,7 @@ let ctx = c.getContext("2d");
 let hw = w / 2; // half-width
 let hh = h / 2; // half-height
 let opts = {
-  strings: ["FELIZ", "CUMPLEAÑOS!!", "LIZETH ERAS"],
+  strings: ["FELIZ", "CUMPLEAÑOS!!", "", "BEFFA", "LIZETH ERAS"],
   charSize: 30,
   charSpacing: 35,
   lineHeight: 50,
@@ -33,7 +33,7 @@ let opts = {
   fireworkShardAddedSize: 3,
   gravity: 0.1,
   upFlow: -0.1,
-  letterContemplatingWaitTime: 360,
+  letterContemplatingWaitTime: 460,
   balloonSpawnTime: 20,
   balloonBaseInflateTime: 10,
   balloonAddedInflateTime: 10,
@@ -431,11 +431,11 @@ function drawShootingStar() {
 }
 
 let opts2 = {
-  strings: ["TE", "QUIERO", "UN MONTÓN!!", "NUNCA CAMBIES", "BEFFA"],
+  strings: ["TE", "QUIERO", "UN MONTÓN!!", "", "NUNCA CAMBIES", "BEFFA"],
   charSize: 30,
   charSpacing: 35,
   lineHeight: 50,
-  letterContemplatingWaitTime: 360,
+  letterContemplatingWaitTime: 460,
   balloonSpawnTime: 20,
   balloonBaseInflateTime: 10,
   balloonAddedInflateTime: 10,
