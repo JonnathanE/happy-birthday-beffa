@@ -4,7 +4,7 @@ let ctx = c.getContext("2d");
 let hw = w / 2; // half-width
 let hh = h / 2; // half-height
 let opts = {
-  strings: ["FELIZ", "CUMPLEAÑOS!!", "", "BEFFA", "LIZETH ERAS"],
+  strings: ["FELIZ", "CUMPLEAÑOS!!", "", "BEFFA", "LIZ ERAS"],
   charSize: 30,
   charSpacing: 35,
   lineHeight: 50,
